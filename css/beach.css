@@ -1,0 +1,335 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+.header-nav{
+	float: right;
+	margin-top: 10px;
+	margin-right: 50px;
+}
+.head-inner{
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+	margin-top: 10px;
+	border-radius: 50%;
+}
+nav ul li{
+	list-style: none;
+	display: inline;
+}
+nav ul li a{
+	color: white;
+}
+ul li{
+	list-style: none;
+}
+ul li a{
+	color: grey;
+}
+a{
+	text-decoration: none;
+	margin-right: 50px;
+}
+a:hover{
+	color: #426493;
+	font-size: 18px;
+}
+.funroute{
+	position: absolute;
+	top: 25px;
+	color: white;
+	left: 75px;
+	font-size: 22px;
+	font-family: sans-serif;
+}
+.image-division{
+	background-image: url("../img/cover1.jpg");
+	background-size: cover;
+	position: relative;
+	top: -80px;
+	display: flex;
+	height: 100vh;
+	width: 100%;
+	z-index: -1;
+	margin-left: 0px;
+	background-attachment: fixed;
+}
+.column1{
+	flex-basis: 27%;
+	box-sizing: border-box;
+	margin-top: 6px;
+	font-size: 16px;
+	box-shadow: 0px 2px 2px grey;
+	color: #4a4a4a;
+	border-style: solid;
+	padding: 40px 10px 36px 23px;
+	line-height: 22px;
+	border-width: 1px;
+	border-color: #666;
+
+}
+.column:hover{
+	box-shadow: 10px 13px 14px grey;
+}
+.column2{
+	flex-basis: 27%;
+	box-sizing: border-box;
+	margin-top: 6px;
+	font-size: 16px;
+	color: #4a4a4a;
+	box-shadow: 0px 2px 2px grey;
+	line-height: 22px;
+	border-width: 1px;
+	border-style: solid;
+	padding: 40px 10px 36px 23px;
+	border-color: #666;
+}
+.column3{
+	flex-basis: 27%;
+	box-sizing: border-box;
+	margin-top: 6px;
+	font-size: 16px;
+	box-shadow: 0px 2px 2px grey;
+	color: #4a4a4a;
+	line-height: 22px;
+	border-width: 1px;
+	border-style: solid;
+	padding: 40px 10px 36px 23px;
+	border-color: #666;
+}
+.home-rent{
+	display: flex;
+	width: 90%;
+	margin: auto;
+	background: #426493;
+	flex-direction:column;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #666;
+}
+.container1{
+    flex-basis: 24%;
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
+	height: 200px;
+	margin-bottom: 10px;
+	background-image: url("../img/near-b1.jpg");
+	background-size: cover;
+}
+.container2{
+	flex-basis: 24%;
+	height: 200px;
+	margin-bottom: 10px;
+	align-items: flex-end;
+	display: flex;
+	justify-content: flex-end;
+	background-image: url("../img/near-b2.jpg");
+	background-size: cover;
+}
+.container3{
+	flex-basis: 24%;
+	height: 200px;
+	align-items: flex-end;
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 10px;
+	background-image: url("../img/near-b3.jpg");
+	background-size: cover;
+}
+.container4{
+	flex-basis: 24%;
+	height: 200px;
+	align-items: flex-end;
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 10px;
+	background-image: url("../img/near-b4.jpg");
+	background-size: cover;
+}
+.main-column{
+	width: 90%;
+	 position: relative; 
+	 top: -50px; 
+	 justify-content: space-between;
+	  margin: auto; z-index: -1;
+}
+.image-container{
+	display: flex;
+	flex-wrap: wrap;
+	width: 96%; 
+	margin:0 auto;
+	height: 210px;
+	justify-content: space-between;
+}
+.row-image-inner1:hover , .row-image-inner1:focus{
+	-ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.row-image-inner2:hover , .row-image-inner2:focus{
+	-ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.col-image-inner1:hover , .col-image-inner1:focus{
+	-ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.col-image-inner2:hover , .col-image-inner2:focus{
+	-ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.col-image-inner3:hover , .col-image-inner3:focus{
+	-ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.row-image-inner1:hover .image-text, .row-image-inner1:focus .image-text{
+	visibility: visible;
+  opacity: 1;
+  -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.row-image-inner2:hover .image-text, .row-image-inner2:focus .image-text{
+	visibility: visible;
+  opacity: 1;
+  -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.col-image-inner1:hover .image-text, .col-image-inner1:focus .image-text{
+	visibility: visible;
+  opacity: 1;
+  -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.col-image-inner2:hover .image-text, .col-image-inner2:focus .image-text{
+	visibility: visible;
+  opacity: 1;
+  -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.col-image-inner3:hover .image-text, .col-image-inner3:focus .image-text{
+	visibility: visible;
+  opacity: 1;
+  -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.row-image-inner1{
+	transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+	flex-basis: 49%;
+	transition: all 0.5s;
+	display: flex;
+	background-image: url("../img/coastrentals.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.row-image-inner2{
+	transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+	flex-basis: 49%;
+	display: flex;
+	transition: all 0.5s;
+	background-image: url("../img/mountains.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.col-image-inner1{
+	transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+	display: flex;
+	flex-basis: 32%;
+	background-image: url("../img/islands.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.col-image-inner2{
+	transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+	flex-basis: 32%;
+	display: flex;
+	background-image: url("../img/resorts.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.col-image-inner3{
+	transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+	flex-basis:32%;
+	display: flex;
+	background-size: cover;
+	background-image: url("../img/waterdrive.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.image-text{
+	margin: auto;
+	font-size: 20px;
+	color: white;
+	visibility: hidden;
+  opacity: 0;
+
+}
+
+
+
+@media (min-width: 900px){
+	.main-column{
+		display: flex;
+		justify-content: space-between;
+	}
+	/*.image-container{
+		display: flex;
+		justify-content: space-between;
+	}*/
+}
+body{
+	margin: 0;
+	font-family: 'Libre Baskerville', serif;
+}
